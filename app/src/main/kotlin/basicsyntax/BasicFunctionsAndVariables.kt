@@ -2,7 +2,10 @@ package basicsyntax
 
 /**
  * Created by vbrown on 12/10/2016.
+ *
+ * Covers basic syntax, local variable declaration and control of flow examples.
  */
+
 class BasicFunctionsAndVariables {
 
     // Basic function.
@@ -13,6 +16,8 @@ class BasicFunctionsAndVariables {
     // Function with parameter.
     fun functionWithParam(param: String) {
         println("Hello " + param)
+        var obj: ClassesAndObjects = ClassesAndObjects()
+        val boo = obj.isNameEmpty
     }
 
     // Function with nullable (?) parameter.
@@ -54,5 +59,4 @@ class BasicFunctionsAndVariables {
             }
         }
     }
-
 }
